@@ -1,0 +1,98 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Oswald:wght@200&family=Quicksand:wght@300&family=Roboto+Mono:ital,wght@0,100;1,200&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+
+:root{
+    --color-primary: #97694F;
+    --color-secondary: #6666CC;
+}
+
+
+/* SEKCJA PIERWSZA  */
+
+
+
+.header{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    background-color: lightgrey;
+}
+
+button{
+    display: block;
+    height: 45px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: var(--color-primary)
+   
+   
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: var(--color-primary)
+}
+
+
+/*  SEKCJA DRUGA   */
+
+h2{
+    text-align: center;
+}
+
+.card{
+    width: 400px;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.nwycieczki{
+    font-weight: 700;
+}
+
+.grubson{
+    font-weight: 700;
+}
+
+.cena{
+    color: var(--color-secondary);
+}
+
+/* SEKCJA TRZECIA */
+
+.middle{
+    text-align: center;
+}
+
+#femail{
+    width: 100%;
+}
+
+#fname{
+    width: 100%;
+}
+
+/* SEKCJA CZWARTA */
+
+footer{
+    text-align: center;
+    background-color: gray;
+}
+
